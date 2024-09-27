@@ -1,0 +1,16 @@
+float_1 = 5.25
+float_2 = 8.75
+int_1 = 2
+int_2 = 6
+
+float_sum = float_1 + float_2
+print(str(float_1) + ' + ' + str(float_2) + ' = ' + str(float_sum))
+print('Data Type : ' + str(type(float_sum)))
+
+int_diff = int_2 - int_1
+print(str(int_2) + ' - ' + str(int_1) + ' = ' + str(int_diff))
+print('Data Type : ' + str(type(int_diff)))
+
+float_int_prod = float_1 * int_1
+print(str(float_1) + ' * ' + str(int_1) + ' = ' + str(float_int_prod))
+print('Data Type : ' + str(type(float_int_prod)))
