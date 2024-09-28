@@ -1,0 +1,25 @@
+class favorite_animal :
+    def __init__(self, arm_length, leg_length, num_eyes, tail, furry) :
+        self.arm_length = arm_length
+        self.leg_length = leg_length
+        self.num_eyes = num_eyes
+        self.tail = tail
+        self.furry = furry
+    
+    def describe_animal(self) :
+        if self.tail == True:
+            has=tail = ('has a tail')
+        else:
+            has_tail = ('does not have a tail')
+        if self.furry == True:
+            is_furry = ('is furry')
+        else:
+            is_furry = ('is not furry')
+        
+        print('This animal\'s arms are ' + str(self.arm_length) + ' inches long.')
+        print('This animal\'s legs are ' + str(self.leg_length) + ' inches long.')
+        print('This animal has ' + str(self.num_eyes) + ' eyes.')
+        print('This animal ' + str(has_tail) + '.')
+        print('This animal ' + str(is_furry) + '.')
+
+favorite_animal(9.2, 9.2, 2, True, True)
