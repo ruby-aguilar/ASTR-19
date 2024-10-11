@@ -1,3 +1,5 @@
+#This program prints my name, pronouns, favorite movie, and favorite food
+
 print('Hello! My name is Ruby Aguilar and I use she/her pronouns.')
 print('My favorite move is Coraline because I live the claymation style they used.')
 print('My favorite food is sushi, specifically sashimi of any kind.')
