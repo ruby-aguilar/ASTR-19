@@ -1,0 +1,24 @@
+#Write a Python program that writes out a table of the function sin(x) vs. x, 
+#where x is tabulated between 0 and 2 with a thousand entries. 
+#Follow the basic Python program structure, including a main program function.
+
+import numpy as np
+
+def table():
+    # makes array of x and sin(x) values
+    x_values = np.linspace(0, 2, 1000)
+    sin_values = np.sin(x_values)
+    
+    # prints the table header
+    print(f"{'x':^9} {'|'} {'sin(x)':^9}")
+    print("-" * 23)
+    
+    #prints the rest of the table
+    for x, y in zip(x_values, sin_values):
+        print(f"{x:9f} {'|'} {y:9f}")
+
+def main():
+    table()
+
+if __name__ == "__main__":
+    main()
