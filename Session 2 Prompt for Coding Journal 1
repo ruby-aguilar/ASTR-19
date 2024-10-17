@@ -1,3 +1,7 @@
+#This program prints the sum of two floating point numbers, 
+#the difference between two integers, and the product of a 
+#floating point number and an integer.
+
 float_1 = 5.25
 float_2 = 8.75
 int_1 = 2
